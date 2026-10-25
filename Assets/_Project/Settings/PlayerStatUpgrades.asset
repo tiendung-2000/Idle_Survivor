@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cee9d635a2a3bc46bc742317a338bfe, type: 3}
+  m_Name: PlayerStatUpgrades
+  m_EditorClassIdentifier: Assembly-CSharp::StatUpgradeData
+  upgrades:
+  - stat: 0
+    category: 0
+    displayName: "S\xE1t th\u01B0\u01A1ng"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 2
+    valuePerLevel: 0.07
+    maxLevel: 200
+    baseCost: 3
+    costMultiplier: 1.1
+  - stat: 1
+    category: 0
+    displayName: "T\u1ED1c \u0111\u1ED9 \u0111\xE1nh"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: /s
+    growthType: 1
+    valuePerLevel: 0.04
+    maxLevel: 25
+    baseCost: 10
+    costMultiplier: 1.18
+  - stat: 2
+    category: 0
+    displayName: "T\u1EA7m \u0111\xE1nh"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 0
+    valuePerLevel: 0.3
+    maxLevel: 10
+    baseCost: 12
+    costMultiplier: 1.25
+  - stat: 3
+    category: 0
+    displayName: "T\u1ED1c \u0111\u1ED9 \u0111\u1EA1n"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 1
+    valuePerLevel: 0.08
+    maxLevel: 10
+    baseCost: 6
+    costMultiplier: 1.25
+  - stat: 4
+    category: 0
+    displayName: "T\u1EC9 l\u1EC7 ch\xED m\u1EA1ng"
+    showAsPercent: 1
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 0
+    valuePerLevel: 0.015
+    maxLevel: 20
+    baseCost: 15
+    costMultiplier: 1.2
+  - stat: 5
+    category: 0
+    displayName: "S\xE1t th\u01B0\u01A1ng ch\xED m\u1EA1ng"
+    showAsPercent: 1
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 0
+    valuePerLevel: 0.1
+    maxLevel: 25
+    baseCost: 15
+    costMultiplier: 1.17
+  - stat: 6
+    category: 1
+    displayName: "M\xE1u t\u1ED1i \u0111a"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 2
+    valuePerLevel: 0.07
+    maxLevel: 200
+    baseCost: 3
+    costMultiplier: 1.1
+  - stat: 7
+    category: 1
+    displayName: "H\u1ED3i m\xE1u"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: /s
+    growthType: 2
+    valuePerLevel: 0.07
+    maxLevel: 170
+    baseCost: 8
+    costMultiplier: 1.11
+  - stat: 8
+    category: 1
+    displayName: "Gi\xE1p"
+    showAsPercent: 0
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 0
+    valuePerLevel: 4
+    maxLevel: 50
+    baseCost: 10
+    costMultiplier: 1.15
+  - stat: 9
+    category: 2
+    displayName: "H\u1EC7 s\u1ED1 v\xE0ng"
+    showAsPercent: 0
+    valuePrefix: x
+    valueSuffix: 
+    growthType: 0
+    valuePerLevel: 0.05
+    maxLevel: 30
+    baseCost: 15
+    costMultiplier: 1.17
+  - stat: 10
+    category: 2
+    displayName: "T\u1EC9 l\u1EC7 v\xE0ng x2"
+    showAsPercent: 1
+    valuePrefix: 
+    valueSuffix: 
+    growthType: 0
+    valuePerLevel: 0.02
+    maxLevel: 25
+    baseCost: 20
+    costMultiplier: 1.18

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87580da9d5b48a5489a7ac9d9778fae1, type: 3}
+  m_Name: WaveSettings
+  m_EditorClassIdentifier: Assembly-CSharp::WaveSettings
+  baseEnemyCount: 8
+  enemiesAddedPerWave: 1
+  maxEnemyCount: 35
+  baseSpawnInterval: 1.3
+  spawnIntervalReductionPerWave: 0.015
+  minSpawnInterval: 0.45
+  timeBetweenWaves: 2.5
+  healthGrowth: 1.09
+  damageGrowth: 1.075
+  rewardGrowth: 1.07
+  speedGrowth: 1.008
+  maxSpeedMultiplier: 1.6
+  bossEveryWaves: 10
+  bossHealthMultiplier: 15
+  bossDamageMultiplier: 1.5
+  bossRewardMultiplier: 12
+  bossScale: 1.8
+  bossSpeedMultiplier: 0.7
+  bossTint: {r: 1, g: 0.45, b: 0.45, a: 1}
